@@ -1,0 +1,71 @@
+.main{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    animation-name: zigzag;
+    /* animation-duration: 12s; */
+    animation-duration: 20s;
+
+}
+
+@keyframes zigzag{
+    
+
+    0%{
+   top: 0;
+   left: 0;
+
+    }
+
+    15%{
+    top: 350px;
+    left: 250px;
+    border-radius: 10px
+    }
+
+    30%{
+        
+        top: 0;
+        left: 450px;
+        background-color: aqua;
+        
+    }
+
+    
+    50%{
+        top: 350px;
+        left: 650px;
+        border-radius: 20px;
+
+    }
+    65%{
+        top: 0;
+        left: 850px;
+        background-color: blue;
+        /* width: 150px; */
+    }
+
+    75%{
+        top: 350px;
+        left: 1050px;
+        background-color: crimson;
+        border-radius: 30px;
+
+
+    }
+    
+
+    100%{
+        top: 0;
+        left: 1250px;
+        border-radius: 50px;
+
+    }
+
+   
+    
+    } 
+    
+
+    
